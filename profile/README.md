@@ -11,10 +11,20 @@
 
 <p align="center">
   <a href="https://aquamindai.github.io"><img src="https://img.shields.io/badge/Canlı%20Veb%20Sayt-aquamindai.github.io-0284c7?style=for-the-badge&logo=githubpages&logoColor=white" alt="Live Demo" /></a>
-  <img src="https://img.shields.io/badge/Status-Aktiv%20İstehsalat-22c55e?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/Data%20%26%20Core%20Repo-Private%20🔒-ef4444?style=for-the-badge" alt="Private Data" />
+  <a href="mailto:suleyman.hacizade1@gmail.com"><img src="https://img.shields.io/badge/Access%20Müraciət-suleyman.hacizade1%40gmail.com-22c55e?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Access" /></a>
   <img src="https://img.shields.io/badge/Məkan-Bakı%2C%20Azərbaycan-blue?style=for-the-badge" alt="Location" />
-  <img src="https://img.shields.io/badge/Lisenziya-Apache%202.0-orange?style=for-the-badge" alt="License" />
 </p>
+
+---
+
+> [!IMPORTANT]
+> ### 🔒 Məlumatların Məxfiliyi və Giriş İcazəsi (Private Data & Access Request)
+> **Bu təşkilatın əsas tədqiqat dataları, eksperimental telemetriya bazası, AI modelləri, mikrokontroller proqram təminatı və tam mənbə kodu (`AquaMindAI` monorepo) məxfidir (`Private`).**
+>
+> Akademik tədqiqat, elmi rəy (peer-review), tərəfdaşlıq və ya məxfi repozitoriyalara və datalara **giriş icazəsi (access)** əldə etmək istəyirsinizsə, aşağıdakı rəsmi elektron poçt ünvanları vasitəsilə birbaşa müraciət edə bilərsiniz:
+> - 📧 **Əsas Elektron Poçt:** [suleyman.hacizade1@gmail.com](mailto:suleyman.hacizade1@gmail.com)
+> - 🎓 **Akademik Elektron Poçt:** [suleyman.hacizade.232bioing@wcu.edu.az](mailto:suleyman.hacizade.232bioing@wcu.edu.az)
 
 ---
 
@@ -31,7 +41,7 @@ Sistem su mühitinin kritik fiziki-kimyəvi parametrlərini fasiləsiz analiz ed
 | Repozitoriya | Növü | Təsvir | Texnologiyalar |
 | :--- | :---: | :--- | :--- |
 | **[`AquaMindAI.github.io`](https://github.com/AquaMindAI/AquaMindAI.github.io)** | `Public` 🌍 | **Rəsmi Veb Tətbiq & Canlı İdarəetmə Paneli**: Real vaxtlı telemetriya, hovuz seçimləri, stress simulyasiyası və AI xəbərdarlıq sistemi. | Next.js 14, Tailwind CSS, TypeScript, Recharts, GitHub Pages |
-| **[`AquaMindAI`](https://github.com/AquaMindAI/AquaMindAI)** | `Private` 🔒 | **Əsas Monorepo**: FastAPI REST API, MySQL verilənlər bazası, Random Forest / Isolation Forest modelləri, ESP32 mikrokontroler proqramı, Streamlit analitika və elmi nəşrlər. | Python 3.11, FastAPI, Scikit-Learn, Docker Compose, C++ (Arduino/ESP32), MySQL |
+| **[`AquaMindAI`](https://github.com/AquaMindAI/AquaMindAI)** | `Private` 🔒 | **Əsas Monorepo & Tədqiqat Dataları**: FastAPI REST API, MySQL verilənlər bazası, Random Forest / Isolation Forest modelləri, Arduino/ESP32 firmware, Streamlit analitika, LLM Wiki və elmi nəşrlər. *(Access üçün e-poçt ilə müraciət edin)* | Python 3.11, FastAPI, Scikit-Learn, Docker Compose, C++ (Arduino/ESP32), MySQL |
 
 ---
 
@@ -40,9 +50,9 @@ Sistem su mühitinin kritik fiziki-kimyəvi parametrlərini fasiləsiz analiz ed
 ### 1. IoT Sensor Şəbəkəsi (Hardware & Firmware)
 * **DS18B20:** Rəqəmsal yüksək dəqiqlikli su temperaturu sensoru ($\pm 0.5^\circ\text{C}$).
 * **HC-SR04:** Ultrasəs su səviyyəsi və sızma monitorinqi sensoru.
-* **DHT22:** Ətraf mühit hava temperaturu və nisbi rütubət sensoru.
+* **DHT11/22:** Ətraf mühit hava temperaturu və nisbi rütubət sensoru.
 * **DO & pH:** Həll olunmuş oksigen və turşuluq-qələvilik dərəcəsi indikatorları.
-* **Mikrokontroler:** ESP32 / Arduino (Wi-Fi / MQTT / REST telemetriya axını).
+* **Mikrokontroler:** Arduino Uno (ATmega328P) / ESP32 (Serial / Wi-Fi / REST telemetriya axını).
 
 ### 2. Süni İntellekt və Analitika (Machine Learning Engine)
 * **Random Forest Regressor:** Sutkalıq günəş/istilik dövriyyəsi və gecikmə xüsusiyyətləri (*lag features*) əsasında su temperaturunun $+1$, $+3$ və $+6$ saatlıq qabaqlayıcı proqnozu ($R^2 \ge 0.94$).
@@ -56,9 +66,10 @@ Sistem su mühitinin kritik fiziki-kimyəvi parametrlərini fasiləsiz analiz ed
 
 ---
 
-## 🌐 Rəsmi Keçidlər & Əlaqə
+## 🌐 Rəsmi Keçidlər, Giriş Müraciəti & Əlaqə
 
 * **Canlı Veb Sayt:** [https://aquamindai.github.io](https://aquamindai.github.io)
 * **Təşkilat:** [AquaMind AI Organization](https://github.com/AquaMindAI)
 * **Müəllif & Rəhbər:** [Suleyman Hajizadeh](https://github.com/SuleimanHajizadeh)
+* **Giriş İcazəsi (Access Request) & Əlaqə E-poçtu:** [suleyman.hacizade1@gmail.com](mailto:suleyman.hacizade1@gmail.com) | [suleyman.hacizade.232bioing@wcu.edu.az](mailto:suleyman.hacizade.232bioing@wcu.edu.az)
 * **Məkan:** Bakı, Azərbaycan Respublikası
